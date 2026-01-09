@@ -1,5 +1,7 @@
 # Abinash Nayak – Portfolio Website
 
+🌐 Live Portfolio: https://abinash-nayak-portfolio.netlify.app
+
 Professional portfolio website showcasing real-world projects,
 backend system design, and full stack development skills.
 
