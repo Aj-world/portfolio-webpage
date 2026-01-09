@@ -1,0 +1,92 @@
+/* ===== NAVBAR ===== */
+.navbar-custom {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 0 var(--border);
+  background-color: var(--bg);
+}
+ 
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text) !important;
+  display: flex;
+  align-items: center;
+}
+
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  margin-left: 20px;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.nav-link {
+  color: var(--text) !important;
+}
+
+.nav-link:hover {
+  color: var(--primary) !important;
+}
+
+
+/* ===== BUTTONS ===== */
+.btn-primary-custom {
+  background: var(--primary);
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn-primary-custom:hover {
+  opacity: 0.9;
+}
+
+/* ===== CARDS ===== */
+.card-custom {
+  background: var(--card-bg);
+  color: var(--text);
+  padding: 28px;
+  border-radius: 12px;
+  transition: var(--transition);
+}
+.text-muted {
+  color: var(--text-muted) !important;
+}
+.btn-outline-light {
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.btn-outline-light:hover {
+  background: var(--border);
+}
+
+
+.card-custom:hover {
+  transform: translateY(-6px);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  padding: 32px 0;
+  text-align: center;
+  border-top: 1px solid #1f2937;
+}
+.navbar-nav {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
